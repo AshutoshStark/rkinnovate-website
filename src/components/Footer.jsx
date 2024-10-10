@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div className=" bg-primary">
       <div className=" m-auto pt-[80px] pb-10 px-[10] max-w-[1140px] ">
-        <div className="  w-[100%] m-auto flex flex-col px-6 gap-3 sm:gap-0 sm:flex  justify-between items-start">
+        <div className="  w-[100%] m-auto flex flex-col sm:flex-row px-6 gap-3 sm:gap-0 sm:flex  justify-between items-start">
           {/* 1 */}
           <div>
             <img src={logo} alt="logo" width={180} className="rounded-[24px]" />
