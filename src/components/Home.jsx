@@ -55,7 +55,7 @@ function Home() {
   return (
     <div className="bg-white">
       {/* section 1 */}
-      <section className="max-w-[1140px] m-[100px]  mx-auto  flex gap-[2rem] justify-between items-start">
+      <section className="max-w-[1140px] m-[100px]  mx-auto  flex gap-[2rem] justify-between items-start px-6">
         {/* left */}
         <motion.div
         variants={slideInFromLeft(0.3)}
@@ -151,7 +151,7 @@ function Home() {
           <img src={officeview} alt="" />
         </div>
         {/* container-3 */}
-        <div className="w-screen sm:max-w-[1140px] flex flex-wrap sm:flex h-[326px] sm:m-auto justify-center sm:justify-between sm:mt-[-150px] ">
+        <div className="w-screen sm:max-w-[1140px] flex flex-wrap sm:flex h-[326px] sm:m-auto justify-center sm:justify-between sm:mt-[-150px] px-6">
           {/* btn-container */}
           <motion.div
           variants={slideInFromLeft(0.3)}
@@ -224,7 +224,7 @@ function Home() {
         </motion.div>
       </section>
       {/* /section-3 */}
-      <section className="max-w-[1140px] bg-white text-center m-auto py-[120px]">
+      <section className="max-w-[1140px] bg-white text-center m-auto py-[120px] px-6">
         <span className=" text-primary text-xl uppercase">Our Services</span>
         <h1 className=" text-[35px] sm:text-[40px] text-heading font-bold mb-[12px] px-3">
           We build modern creative mobile experiences.
@@ -371,7 +371,7 @@ function Home() {
         </div>
       </section>
       {/* section-4 carausel */}
-      <section className=" bg-lightGrey  text-center m-auto py-[120px]">
+      <section className=" bg-lightGrey  text-center m-auto py-[120px] px-6">
         <h1 className=" text-heading text-[34px] font-bold mb-20">
           Happy Client Works
         </h1>
@@ -475,7 +475,7 @@ function Home() {
       initial="hidden"
       whileInView={"visible"}
       viewport={{once:true}} 
-       className="max-w-[1140px] bg-white  text-center m-auto py-[120px]">
+       className="max-w-[1140px] bg-white  text-center m-auto py-[120px] px-6">
         <h1 className=" text-[40px] text-heading font-bold mb-[12px]">
           Technologies we work with
         </h1>
@@ -530,7 +530,7 @@ function Home() {
         </div>
       </motion.section>
       {/* section -6  */}
-      <section className="relative bg-form-bg bg-center bg-no-repeat bg-cover bg-fixed  sm:m-auto py-[120px]">
+      <section className="relative bg-form-bg bg-center bg-no-repeat bg-cover bg-fixed  sm:m-auto py-[120px] px-6">
         <div className="absolute inset-0 bg-black/60"></div>
         <div className=" relative z-30  gap-7 sm:gap-[10rem]   flex flex-wrap sm:flex  justify-center  h-[100%] max-w-[1240px]   m-auto px-[10] items-center">
           {/* 1 */}
