@@ -1,7 +1,7 @@
 import logo from "../../public/logo.png";
 function Header() {
   return (
-    <div className=" h-[85px] sticky  z-50 top-0 flex shadow-sm items-center justify-between px-8 bg-white border-b-2 ">
+    <div className=" h-[85px] sticky z-50 top-0 flex shadow-sm items-center justify-between px-8 bg-white border-b-2 ">
       <div>
         <a href="/">
           <img src={logo} alt="logo"  className=" w-[15%]" />
